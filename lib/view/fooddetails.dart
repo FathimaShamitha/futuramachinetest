@@ -31,12 +31,20 @@ class FoodDetailsClass extends StatelessWidget {
               style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
             ),
           ),
+          Padding(
+            padding: const EdgeInsets.only(left: 10),
+            child: Text('Category : ${meals.strCategory}',style: TextStyle(fontSize: 18),),
+          ),
+          Padding(
+            padding: const EdgeInsets.only(left: 10),
+            child: Text('Area : ${meals.strArea}',style:  TextStyle(fontSize: 18),),
+          ),
           Divider(),
           Padding(
             padding: const EdgeInsets.only(left: 10),
             child: Text(
               'Instructions',
-              style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
+              style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20,),
             ),
           ),
           SizedBox(
